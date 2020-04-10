@@ -26,7 +26,7 @@ This template has been prepopulated with some variables to act as placeholders f
 
 `META_LONG_TITLE` --> the long title for the app in `manifest.json`.
 
-Lastly, don't forget to change the relevant fields in `package.json` and in `capacitor.confid.json`
+Lastly, don't forget to change the relevant fields in `package.json`, `capacitor.confid.json` and `ionic.config.json`
 
 ```
 "appId": "com.example.app",

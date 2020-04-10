@@ -1,0 +1,7 @@
+{
+  "name": "react-ts-pwa-capacitor-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

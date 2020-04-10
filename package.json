@@ -1,11 +1,11 @@
 {
   "name": "react-ts-pwa-capacitor-ionic",
-  "description": "Basic Template from CRA using TS, ESLint, lint-staged, husky",
+  "description": "A template for a react PWA built with CRA, Ionic and Capacitor, with a complete and custom CI/CD workflow around it (w/ yarn)",
   "version": "1.0.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/kiily/react-ts"
+    "url": "https://github.com/kiily/react-ts-pwa-ionic-capacitor"
   },
   "scripts": {
     "start": "react-scripts start",

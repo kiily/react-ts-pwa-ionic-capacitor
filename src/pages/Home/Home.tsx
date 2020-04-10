@@ -18,6 +18,14 @@ const Home = () => {
       </IonHeader>
       <IonContent>
         <IonDatetime displayFormat="MM/DD/YYYY" placeholder="Select Date"></IonDatetime>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
         <IonButton fill="clear">Start</IonButton>
       </IonContent>
     </IonPage>

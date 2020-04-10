@@ -1,4 +1,4 @@
-# React-TS-PWA
+# React-TS-PWA-Ionic-Capacitor
 
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -6,7 +6,7 @@
 
 Template CRA PWA, with TS, SCSS and customized CI/CD environment.
 
-You can find all the relevant details about what is included in this repo here: https://www.notion.so/kiilysden/React-TS-PWA-0ff8c6be6ae249bbbf3baebcf54703d9
+You can find all the relevant details about what is included in this repo here: https://www.notion.so/kiilysden/React-TS-PWA-Ionic-Capacitor-edd29a16ae0c45c98590077f07e3b051
 
 # Getting started:
 
@@ -27,6 +27,8 @@ This template has been prepopulated with some variables to act as placeholders f
 `META_LONG_TITLE` --> the long title for the app in `manifest.json`.
 
 Lastly, don't forget to change the relevant fields in `package.json`
+
+## Working with Capacitor
 
 ## Available Scripts
 

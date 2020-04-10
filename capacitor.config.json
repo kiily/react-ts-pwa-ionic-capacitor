@@ -1,0 +1,8 @@
+{
+  "appId": "com.example.app",
+  "appName": "react-ts-pwa-capacitor-ionic",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "cordova": {}
+}

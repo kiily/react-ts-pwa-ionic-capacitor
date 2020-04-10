@@ -6,7 +6,7 @@
 
 Template CRA PWA, with TS, SCSS and customized CI/CD environment.
 
-You can find all the relevant details about what is included in this repo here: https://www.notion.so/kiilysden/React-TS-PWA-Ionic-Capacitor-edd29a16ae0c45c98590077f07e3b051
+You can find all the relevant details about what is included in this repo here: [Template Details](https://www.notion.so/kiilysden/React-TS-PWA-Ionic-Capacitor-edd29a16ae0c45c98590077f07e3b051)
 
 # Getting started:
 
@@ -26,9 +26,20 @@ This template has been prepopulated with some variables to act as placeholders f
 
 `META_LONG_TITLE` --> the long title for the app in `manifest.json`.
 
-Lastly, don't forget to change the relevant fields in `package.json`
+Lastly, don't forget to change the relevant fields in `package.json` and in `capacitor.confid.json`
 
-## Working with Capacitor
+```
+"appId": "com.example.app",
+"appName": "react-ts-pwa-capacitor-ionic",
+```
+
+## Working with Capacitor:
+
+**Prerequisites:** [Capacitor Prerequisites](https://capacitor.ionicframework.com/docs/getting-started/dependencies)
+
+By default, only `ios` and `android` platforms come added by default. You can add support for electron by running:
+
+`npx cap add electron`
 
 ## Available Scripts
 

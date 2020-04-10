@@ -1,5 +1,5 @@
 {
-  "name": "react-ts",
+  "name": "react-ts-pwa-capacitor-ionic",
   "description": "Basic Template from CRA using TS, ESLint, lint-staged, husky",
   "version": "1.0.0",
   "private": true,
@@ -10,13 +10,20 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:cap": "yarn build && npx cap copy && npx cap open",
     "test": "react-scripts test",
     "test:ci": "cross-env CI=true react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint -c .eslintrc.json \"src/**/*.{ts,tsx}\"",
-    "release": "semantic-release"
+    "release": "semantic-release",
+    "cap:doctor": "npx cap doctor"
   },
   "dependencies": {
+    "@capacitor/android": "2.0.1",
+    "@capacitor/cli": "2.0.1",
+    "@capacitor/core": "2.0.1",
+    "@capacitor/ios": "2.0.1",
+    "@ionic/pwa-elements": "^1.5.2",
     "node-sass": "4.13.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",

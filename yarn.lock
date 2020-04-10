@@ -1370,6 +1370,55 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@capacitor/android@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@capacitor/android@npm:2.0.1"
+  peerDependencies:
+    "@capacitor/core": ~2.0.0
+  checksum: 2/6d03583a4eb805fc157efae2e895a8c009e56175b5947246676e1acbaa24be2a6f12263fec12d9ba485bca594b18f1abc1613b42169259b4577531191dbab980
+  languageName: node
+  linkType: hard
+
+"@capacitor/cli@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@capacitor/cli@npm:2.0.1"
+  dependencies:
+    chalk: ^2.3.0
+    commander: ^2.12.2
+    compare-versions: ^3.1.0
+    fs-extra: ^4.0.3
+    inquirer: 6.3.1
+    open: ^6.1.0
+    ora: ^1.3.0
+    plist: ^3.0.1
+    semver: ^5.4.1
+    which: ^1.3.0
+    xml2js: ^0.4.19
+  bin:
+    cap: bin/capacitor
+    capacitor: bin/capacitor
+  checksum: 2/09a246f8d0311a446422ea49073b7eb2de60dd3b16befe9c1f426b46c5496182c212b76ae62e4743935d077b63b690e636b271d7f7a6c23bd7c51b3a65547d63
+  languageName: node
+  linkType: hard
+
+"@capacitor/core@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@capacitor/core@npm:2.0.1"
+  dependencies:
+    tslib: ^1.9.0
+  checksum: 2/537817c2e2989cba008c3c72e4793c5ccb3c6300500656ceaa62f88abb88cb511afe32164a804d2fb064214b43b0354a29192fa321e40e70fc8b93790499bead
+  languageName: node
+  linkType: hard
+
+"@capacitor/ios@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@capacitor/ios@npm:2.0.1"
+  peerDependencies:
+    "@capacitor/core": ~2.0.0
+  checksum: 2/ea1bd6294b39264134845ddc93b7b93efbc3cdf7252ed3ad9885a501287eaf31b047c63bb3fa77b80d7b69787279028eda0e83cb15fa6f57c6800dac54a1a891
+  languageName: node
+  linkType: hard
+
 "@cnakazawa/watch@npm:^1.0.3":
   version: 1.0.4
   resolution: "@cnakazawa/watch@npm:1.0.4"
@@ -1608,6 +1657,13 @@ __metadata:
     update-notifier: ^2.2.0
     yargs: ^8.0.2
   checksum: 2/a515f681666a74c172df526a3052367da6730945a21099c60b994e70b9a513d8a2f42b2edeb6cc8fae1f9d34c8be9bdeb6ab496c9ccd7ccfc1a07ec2ee8c124f
+  languageName: node
+  linkType: hard
+
+"@ionic/pwa-elements@npm:^1.5.2":
+  version: 1.5.2
+  resolution: "@ionic/pwa-elements@npm:1.5.2"
+  checksum: 2/37ad74e7eb524f2874101c9a6f154163d71a4851c83c5585211f90bc688ff9af08f0f795c21a85ca0ca65063205aad054fe3a8f810cb1f5045695917fcba9aaf
   languageName: node
   linkType: hard
 
@@ -3691,7 +3747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"base64-js@npm:^1.0.2":
+"base64-js@npm:^1.0.2, base64-js@npm:^1.2.3":
   version: 1.3.1
   resolution: "base64-js@npm:1.3.1"
   checksum: 2/8a0cc69d7c7c0ab75c164d3e2eccc3dd65fbaba17bcf440aab54636afd31255287ac3cd16a111e98d741c4a6e0b5631774b0c32818355089e645df3ae96a49bb
@@ -4352,7 +4408,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:2.4.2, chalk@npm:^2.0.0, chalk@npm:^2.0.1, chalk@npm:^2.1.0, chalk@npm:^2.3.2, chalk@npm:^2.4.1, chalk@npm:^2.4.2":
+"chalk@npm:2.4.2, chalk@npm:^2.0.0, chalk@npm:^2.0.1, chalk@npm:^2.1.0, chalk@npm:^2.3.0, chalk@npm:^2.3.2, chalk@npm:^2.4.1, chalk@npm:^2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -4554,6 +4610,13 @@ __metadata:
   dependencies:
     restore-cursor: ^3.1.0
   checksum: 2/15dbfc222f27da8cbc61680e4948b189e811224271f6ee5be9db0dcbabe23ae3b2c5a5663be6f17ee51f6203ab44abddd4f4cffb20d69458fc845fa86976f96a
+  languageName: node
+  linkType: hard
+
+"cli-spinners@npm:^1.0.1":
+  version: 1.3.1
+  resolution: "cli-spinners@npm:1.3.1"
+  checksum: 2/bf9b281cbab42b6967b3cb57f517ebe974d228e57eb1c681f8c006f2bd3a96f23d9eb23418ec3858ecd686bae08a514db8393634fe5cb37a2d36fe8e548cafae
   languageName: node
   linkType: hard
 
@@ -4802,7 +4865,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^2.11.0, commander@npm:^2.20.0, commander@npm:~2.20.3":
+"commander@npm:^2.11.0, commander@npm:^2.12.2, commander@npm:^2.20.0, commander@npm:~2.20.3":
   version: 2.20.3
   resolution: "commander@npm:2.20.3"
   checksum: 2/b73428e97de7624323f81ba13f8ed9271de487017432d18b4da3f07cfc528ad754bbd199004bd5d14e0ccd67d1fdfe0ec8dbbd4c438b401df3c4cc387bfd1daa
@@ -4866,7 +4929,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"compare-versions@npm:^3.6.0":
+"compare-versions@npm:^3.1.0, compare-versions@npm:^3.6.0":
   version: 3.6.0
   resolution: "compare-versions@npm:3.6.0"
   checksum: 2/09525264502bda1f6667ad2429eaf5520b543d997e79e7a94b66a5896df8921cdc3a97140dfff75af6c9ba1859c872de1921c3cf8a6c48ed807bbf9f582cf093
@@ -7684,7 +7747,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^4.0.2":
+"fs-extra@npm:^4.0.2, fs-extra@npm:^4.0.3":
   version: 4.0.3
   resolution: "fs-extra@npm:4.0.3"
   dependencies:
@@ -8954,6 +9017,27 @@ fsevents@^1.2.7:
     validate-npm-package-license: ^3.0.1
     validate-npm-package-name: ^3.0.0
   checksum: 2/b6288a1b4fd82aa80293432f160106982ab3b29dd3c4b7ca701a31b10657e08e60572dc5c17b0f78788e8142b6b36ef98d134b19d3f417da42291bd46c0ad350
+  languageName: node
+  linkType: hard
+
+"inquirer@npm:6.3.1":
+  version: 6.3.1
+  resolution: "inquirer@npm:6.3.1"
+  dependencies:
+    ansi-escapes: ^3.2.0
+    chalk: ^2.4.2
+    cli-cursor: ^2.1.0
+    cli-width: ^2.0.0
+    external-editor: ^3.0.3
+    figures: ^2.0.0
+    lodash: ^4.17.11
+    mute-stream: 0.0.7
+    run-async: ^2.2.0
+    rxjs: ^6.4.0
+    string-width: ^2.1.0
+    strip-ansi: ^5.1.0
+    through: ^2.3.6
+  checksum: 2/f4c87785e14977a6864933da3ff3cbadc07170ff6bd9a1b6121cb449f9ebcf6e73626bac2ffd66d2c31191d2cb5ec5e85a6193ecb7e38b7c1ca948aeaa7c1e55
   languageName: node
   linkType: hard
 
@@ -11218,6 +11302,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"log-symbols@npm:^2.1.0":
+  version: 2.2.0
+  resolution: "log-symbols@npm:2.2.0"
+  dependencies:
+    chalk: ^2.0.1
+  checksum: 2/e2dfd255f3e3080134055597fb67bd67798d65383488683ed90f0376f7264dd21028f30d4c3a0686251dcfc4dc71172e8061cef21e89c6deabb8b375450d5166
+  languageName: node
+  linkType: hard
+
 "log-symbols@npm:^3.0.0":
   version: 3.0.0
   resolution: "log-symbols@npm:3.0.0"
@@ -12846,6 +12939,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"open@npm:^6.1.0":
+  version: 6.4.0
+  resolution: "open@npm:6.4.0"
+  dependencies:
+    is-wsl: ^1.1.0
+  checksum: 2/53044871e74b292262ff5b506b4912f1a0a2d9bcc5b955f059985349cfaa12da1b33cf85ec3dd8b2e59335094464b16899c145e65603e1c04dd4b62135aac807
+  languageName: node
+  linkType: hard
+
 "open@npm:^7.0.2":
   version: 7.0.3
   resolution: "open@npm:7.0.3"
@@ -12906,6 +13008,18 @@ fsevents@^1.2.7:
     type-check: ~0.3.2
     word-wrap: ~1.2.3
   checksum: 2/a5cdced2c92d2bf2b2338b7e29b871eb97987424f7b50d5446853f709f53c855714465ee4bf1842fed2a175445d78cd44376a16666e38ef90ebf4670173d98b8
+  languageName: node
+  linkType: hard
+
+"ora@npm:^1.3.0":
+  version: 1.4.0
+  resolution: "ora@npm:1.4.0"
+  dependencies:
+    chalk: ^2.1.0
+    cli-cursor: ^2.1.0
+    cli-spinners: ^1.0.1
+    log-symbols: ^2.1.0
+  checksum: 2/9170bfb51f96bec7913ef308eda4e9d8787a07772637ec27b7ad8ba72e4c8a39984605c33ffa405e27d565be08f4145539b4e2ee7f389643eae487761aa0b201
   languageName: node
   linkType: hard
 
@@ -13593,6 +13707,17 @@ fsevents@^1.2.7:
   dependencies:
     semver-compare: ^1.0.0
   checksum: 2/34cf86f6d577877df5e9ced0bda57babd97bd2dc7e5965a67f990337f01ccd5203a98dc5aa7971e10088b2b1b29628d51d9770996151c7d306ed0069b4ecd745
+  languageName: node
+  linkType: hard
+
+"plist@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "plist@npm:3.0.1"
+  dependencies:
+    base64-js: ^1.2.3
+    xmlbuilder: ^9.0.7
+    xmldom: 0.1.x
+  checksum: 2/61274fedface8f218f8a5c95f786a3b6b8a8f0b5f637e809fb9a831aafc019111499cc15796ad63c37c9570d6e2029a579077c458fb2af01091373514a9a8ffa
   languageName: node
   linkType: hard
 
@@ -15005,12 +15130,17 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-ts@workspace:.":
+"react-ts-pwa-capacitor-ionic@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-ts@workspace:."
+  resolution: "react-ts-pwa-capacitor-ionic@workspace:."
   dependencies:
+    "@capacitor/android": 2.0.1
+    "@capacitor/cli": 2.0.1
+    "@capacitor/core": 2.0.1
+    "@capacitor/ios": 2.0.1
     "@commitlint/cli": 8.3.5
     "@commitlint/config-conventional": 8.3.4
+    "@ionic/pwa-elements": ^1.5.2
     "@semantic-release/git": 9.0.0
     "@testing-library/jest-dom": 5.5.0
     "@testing-library/react": 10.0.2
@@ -15975,7 +16105,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"sax@npm:^1.2.4, sax@npm:~1.2.4":
+"sax@npm:>=0.6.0, sax@npm:^1.2.4, sax@npm:~1.2.4":
   version: 1.2.4
   resolution: "sax@npm:1.2.4"
   checksum: 2/9d7668d69105e89e2c1a4b2fdc12c72e1a2f78b825f7b4a8a2ea5cdfebf70920bd17715bed55264c3b3959616a0695f8ad2d098bf6944fbd0953ee9c695dceef
@@ -18851,10 +18981,41 @@ typescript@3.8.3:
   languageName: node
   linkType: hard
 
+"xml2js@npm:^0.4.19":
+  version: 0.4.23
+  resolution: "xml2js@npm:0.4.23"
+  dependencies:
+    sax: ">=0.6.0"
+    xmlbuilder: ~11.0.0
+  checksum: 2/5e6e53955714a9d094c9f39ac7509706d136a3dae76684059019ca949e131775f69715715879df86b1a49519ffea3805ff2e930596e229c5f6228ce027e8a80e
+  languageName: node
+  linkType: hard
+
+"xmlbuilder@npm:^9.0.7":
+  version: 9.0.7
+  resolution: "xmlbuilder@npm:9.0.7"
+  checksum: 2/aeef38b26bcfe0ddec25d8751a1e8980cf4ea63f327c123ed64dd29ffd1e8a57b6bc99be57dab1f99064c97ba3b140ed1454cfbeeab651f1e264d74b2d6f2b7f
+  languageName: node
+  linkType: hard
+
+"xmlbuilder@npm:~11.0.0":
+  version: 11.0.1
+  resolution: "xmlbuilder@npm:11.0.1"
+  checksum: 2/8f479b28b5897d903dc514c45c54c869b2f798c0eb44b11e35f7d6e3e631fb9d7aaaec6b9db6b92b715b4ded00d9d8ed8c08e9fd7e2a5f220b14b7b54403fa10
+  languageName: node
+  linkType: hard
+
 "xmlchars@npm:^2.1.1":
   version: 2.2.0
   resolution: "xmlchars@npm:2.2.0"
   checksum: 2/69bbb61e8d939873c8aa7d006d082944de2eb6f12f55e53fdfc670d544e677736b59e498ece303f264bd1dc39b77557eef1c1c9bfb09eb5e1e30ac552420d81e
+  languageName: node
+  linkType: hard
+
+"xmldom@npm:0.1.x":
+  version: 0.1.31
+  resolution: "xmldom@npm:0.1.31"
+  checksum: 2/69b741952c32338c915a74d3a6edc37bade58f93ff3722704cc6a10461c62cb5d6d1bcf2e7a3db6e3ff713f15c7e43089e54dfa369d471898905c489bd8e397b
   languageName: node
   linkType: hard
 

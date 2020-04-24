@@ -6,7 +6,7 @@
     "plugin:@typescript-eslint/recommended",
     "prettier/@typescript-eslint"
   ],
-  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "plugins": ["react", "@typescript-eslint", "prettier", "simple-import-sort"],
   "env": {
     "browser": true,
     "jasmine": true,
@@ -14,7 +14,9 @@
     "es6": true
   },
   "rules": {
+    "no-console": "error",
     "prettier/prettier": ["error", { "singleQuote": true }],
+    "simple-import-sort/sort": "error",
     "@typescript-eslint/explicit-member-accessibility": 0,
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/interface-name-prefix": 0,

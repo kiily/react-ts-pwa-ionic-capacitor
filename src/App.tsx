@@ -1,9 +1,11 @@
-import React from 'react';
-import { Route } from 'react-router-dom';
+import './App.scss';
+
 import { IonApp, IonRouterOutlet } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
+import React from 'react';
+import { Route } from 'react-router-dom';
+
 import Home from './pages/Home/Home';
-import './App.scss';
 
 const App = () => {
   return (
